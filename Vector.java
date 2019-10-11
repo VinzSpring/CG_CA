@@ -38,7 +38,7 @@ public class Vector {
     }
 
     public double angleBetween(Vector v) {
-        return Math.toDegrees(this.angleBetween(v));
+        return Math.toDegrees(this.radBetween(v));
     }
 
     public Vector cross(Vector v) {
